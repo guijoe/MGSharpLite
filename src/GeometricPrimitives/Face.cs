@@ -283,7 +283,7 @@ namespace MGSharp.Core.GeometricPrimitives
             string face = "";
             for(int i=0; i<vertices.getCount(); i++)
             {
-                face += vertices[i].pos + ",";
+                face += vertices[i].pos + ":";
             }
             face = face.Remove(face.Length - 1);
             return face;
