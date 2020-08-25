@@ -227,7 +227,7 @@ namespace MGSharp.Core.GeometricPrimitives
         public override string ToString()
         {
             //return x + ", " + y + ", " + z;
-            return String.Format("{0:N4},{1:N4},{2:N4}", x, y, z);
+            return String.Format("{0:N4}:{1:N4}:{2:N4}", x, y, z);
         }
         //*/
     }
